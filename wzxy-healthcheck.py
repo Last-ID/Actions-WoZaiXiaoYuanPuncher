@@ -166,7 +166,7 @@ class WoZaiXiaoYuanPuncher:
                 "打卡时间": notifyTime
             }, ensure_ascii=False)
             msg = {
-                "token": notifyToken,
+                "token": "9547e8e30f134914be0d9a0ebded3126",
                 "title": "⏰ 我在校园打卡结果通知",
                 "content": content,
                 "template": "json"
