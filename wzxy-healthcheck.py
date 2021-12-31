@@ -104,7 +104,7 @@ class WoZaiXiaoYuanPuncher:
         response = json.loads(response.text)
         # 打卡情况        
         # 如果 jwsession 无效，则重新 登录 + 打卡
-        if response['code'] == 999:
+        if response['code'] == -10:
             print(response)
             print('jwsession 无效，将尝试使用账号信息重新登录')
             self.status_code = 4
